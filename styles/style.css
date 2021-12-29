@@ -1,0 +1,176 @@
+body {
+  background-color: #fff;
+}
+h1 {
+  text-transform: capitalize;
+}
+h1,
+h3 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+h4,
+p {
+  text-align: center;
+  font-family: "Unica One", cursive;
+}
+
+h5 {
+  font-family: "Viga", sans-serif;
+  color: white;
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: -1px 1px 9px rgba(0, 0, 0, 0.3);
+  display: block;
+  height: 720px;
+  margin: 30px auto;
+  max-width: 450px;
+  padding: 0;
+  width: 100%;
+}
+
+.form-control {
+  border-radius: 7px;
+  box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.4);
+  height: 35px;
+  font-family: "Fleur De Leah", cursive;
+  font-size: 20px;
+  left: 10px;
+  max-width: 365px;
+  position: relative;
+  text-decoration: solid;
+  top: 20px;
+}
+.magni-img {
+  bottom: 12px;
+  left: 380px;
+  position: relative;
+  width: 30px;
+}
+.magni-img:hover {
+  width: 31px;
+}
+.pin-img {
+  bottom: 12px;
+  left: 375px;
+  position: relative;
+  width: 28px;
+}
+
+.pin-img:hover {
+  width: 30px;
+}
+.weather-img {
+  display: inline block;
+  width: 50px;
+  color: white;
+}
+.wrap {
+  position: relative;
+  border: none;
+  border-radius: 20px;
+  width: 80%;
+  height: 236px;
+  margin: 0 auto;
+  top: 20px;
+  left: 15px;
+  text-align: center;
+  opacity: 1;
+
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.7),
+    -7px -7px 20px rgba(255, 255, 255, 0.7),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0) !important;
+}
+.currentWeatherSummary {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  bottom: 0;
+}
+.WeatherDescription {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  font-family: "Viga", sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+.WeatherSummary {
+  position: relative;
+  font-family: "Anton", sans-serif;
+  top: 16px;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+}
+#currentCity {
+  padding-top: 29px;
+}
+.current-city {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 0;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.Container-Forecast {
+  position: relative;
+  max-width: 450px;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  top: 200px;
+  bottom: 20px;
+}
+
+.box {
+  display: flex;
+  margin: 0 auto;
+}
+
+.rectangle {
+  height: 200px;
+  min-width: 75px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px;
+  opacity: 1;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.7),
+    -7px -7px 20px rgba(255, 255, 255, 0.7),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0) !important;
+}
+
+.rectangle-title {
+  font-family: "Fleur De Leah", cursive;
+  text-align: center;
+  font-weight: bold;
+}
+
+.weather-icon {
+  color: white;
+}
+
+.weather-Tomorrow {
+  color: yellow;
+}
